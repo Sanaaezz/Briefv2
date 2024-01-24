@@ -1,5 +1,7 @@
 @media only screen and (max-width: 600px) {
   .header {
+    background-image: url(../medias/images/bg_hero_mobile.svg);
+    font-size: 14px;
   }
   .logoHeader {
     height: 50%;
@@ -12,30 +14,54 @@
     padding: 4%;
     margin-top: 10px;
   }
-  body * :not(.enTT) {
+  body :not(.enTT) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
   }
+  h1 {
+    display: flex;
+    align-items: center;
+  }
+  .getStartedH {
+    padding: 7px 10px;
+    width: 200px;
+    align-self: center;
+  }
   .mockups {
-    /* align-self: center;
-    padding: 5%;
+    width: 45vh;
     height: 100%;
-    width: 40vh; */
+
+    margin-block-start: 0;
+    display: flex;
+    align-self: center;
   }
 
+  h2 {
+    font-size: 20px;
+  }
   .firstArticle,
   .secondArticle,
   .thirdArticle {
-    font-size: 12px;
+    padding: 10vh;
+  }
+
+  .firstArticle p,
+  .secondArticle p,
+  .thirdArticle p {
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+  }
+  .thirdArticle {
+    padding-bottom: 150px;
   }
   .imgGrowTG,
   .imgFlowingC,
   .imgYourU {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     object-fit: contain;
   }
   .footer {
@@ -47,7 +73,7 @@
   }
 
   .lastDiv {
-    margin: 10px;
+    margin: 30px;
     margin-top: 10px;
     font-size: 12px;
     margin-top: -80px;
@@ -57,5 +83,33 @@
   .email {
     width: 20px;
     height: 100%;
+  }
+
+  .logoFooter {
+    height: auto;
+    width: 25vh;
+    padding-block-start: 5vh;
+  }
+  .localisation a,
+  .phone a,
+  .email a {
+    font-size: 12px;
+    width: 300px;
+    text-align: left;
+    margin-left: 40px;
+  }
+
+  .reseauxS {
+    display: flex;
+  }
+
+  li {
+    padding-top: 5px;
+  }
+  .liens {
+    height: 90px;
+  }
+  .logoRS {
+    color: white;
   }
 }

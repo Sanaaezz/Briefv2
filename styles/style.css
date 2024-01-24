@@ -13,6 +13,7 @@ a {
   background-image: url(../medias/images/bg_hero_desktop.svg);
   background-color: hsl(193, 100%, 96%);
   background-size: cover;
+  padding-top: 20px;
 }
 .enTT {
   display: flex;
@@ -40,14 +41,16 @@ a {
 
   padding: 10%;
 }
-
+.Ftitle {
+  width: 100%;
+}
 .getStartedH {
   background-color: hsl(322, 100%, 66%);
   border-radius: 30px;
   border-width: 2px 4px;
   text-decoration: none;
   text-align: center;
-  padding: 15px 60px;
+  padding: 15px 30px;
 }
 .getStartedH:hover,
 .getStartedF:hover {
