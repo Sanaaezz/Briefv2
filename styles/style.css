@@ -31,7 +31,8 @@ a {
   border-width: 2px 4px;
   background-color: white;
   color: black;
-  padding: 5px 10px;
+  padding: 10px 25px;
+  box-shadow: 1px 1px 6px #555;
 }
 .headerContent {
   display: flex;
@@ -43,11 +44,12 @@ a {
 }
 .Ftitle {
   width: 100%;
+  margin-bottom: 50px;
 }
 .getStartedH {
   background-color: hsl(322, 100%, 66%);
   border-radius: 30px;
-  border-width: 2px 4px;
+  /* border-width: 2px 4px; */
   text-decoration: none;
   text-align: center;
   padding: 15px 30px;
@@ -60,7 +62,7 @@ a {
   margin-top: 50px;
   margin-right: 50px;
   width: auto;
-  height: 418px;
+  height: 450px;
 }
 
 .mainContent {
@@ -74,16 +76,30 @@ a {
 .secondArticle,
 .thirdArticle {
   font-size: 18px;
+  padding: 5% 20% 5% 20%;
   display: flex;
-  padding: 5% 15% 5% 15%;
   justify-content: space-between;
+  color: hsl(208, 11%, 55%);
+
+  margin: 5% 10%;
+  padding: 5% 7%;
+  border-radius: 10px;
+  border: 4px solid rgb(240, 240, 240);
+}
+h2 {
+  color: black;
 }
 
 .imgGrowTG,
-.imgFlowingC,
 .imgYourU {
   width: auto;
   height: 270px;
+  margin-left: 150px;
+}
+.imgFlowingC {
+  width: auto;
+  height: 270px;
+  margin-right: 150px;
 }
 .firstArticle {
   flex-direction: row-reverse;
@@ -94,25 +110,20 @@ a {
   flex-direction: row-reverse;
 }
 .lastDiv {
-  position: absolute;
-  z-index: 2;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-self: center;
   font-family: "Open Sans", sans-serif;
   background-color: white;
   padding: 20px 10% 20px 10%;
   text-align: center;
   border-radius: 10px;
-  margin-top: -80px;
-  margin-left: 300px;
+  margin: 0px 15% -60px;
+  box-shadow: 2px 2px 5px gray;
 }
 
-.lastH2 {
-  display: flex;
-  flex-direction: row;
-}
 .getStartedF {
   padding: 15px 40px;
   background-color: hsl(322, 100%, 66%);
@@ -140,9 +151,18 @@ ul {
   justify-content: center;
 }
 .localisation,
-.phont,
+.phone,
 .email {
   padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imgContact {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
 }
 
 .reseauxS {
