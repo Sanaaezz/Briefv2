@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Huddle</title>
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/recponsive.css" />
-    <script src="./script.js" defer></script>
+    <script src="./JS/script.js" defer></script>
     <link rel="icon" href="./medias/icons/favicon_32_32.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,6 +29,14 @@
           src="./medias/images/logo.svg"
           alt="logo Huddle"
         />
+        <button
+          type="button"
+          data-theme-toggle
+          aria-label="Change to light theme"
+        >
+          theme
+        </button>
+
         <a class="tryIt" href="#">Try It For Free</a>
       </div>
 
@@ -157,34 +165,35 @@
           <li><a href="#">Contact US</a></li>
         </ul>
       </div>
-      <div class="logoRS">
-        <a href="#"
-          ><img
-            class="reseauxS"
-            src="./medias/icons/facebook.png"
-            alt="logo facebook"
-        /></a>
-        <a href="#"
-          ><img
-            class="reseauxS"
-            src="./medias/icons/twitter.png"
-            alt="logo twitter"
-        /></a>
-        <a href="#"
-          ><img
-            class="reseauxS"
-            src="./medias/icons/instagram.png"
-            alt="logo instagram"
-        /></a>
-
-        <p class="copyR">
+      <div class="lDivF">
+        <div class="logoRS">
+          <a href="#"
+            ><img
+              class="reseauxS"
+              src="./medias/icons/facebook.svg"
+              alt="logo facebook"
+          /></a>
+          <a href="#"
+            ><img
+              class="reseauxS"
+              src="./medias/icons/twitter.svg"
+              alt="logo twitter"
+          /></a>
+          <a href="#"
+            ><img
+              class="reseauxS"
+              src="./medias/icons/instagram.svg"
+              alt="logo instagram"
+          /></a>
+        </div>
+        <div class="divCR">
           <img
             class="logoCopyR"
-            src="./medias/icons/copyright.png"
+            src="./medias/icons/copyrightW.svg"
             alt="logoCopyright"
           />
-          Copyright 2018 Huddle. All rights reserved
-        </p>
+          <p class="copyR">Copyright 2018 Huddle. All rights reserved</p>
+        </div>
       </div>
     </div>
   </body>
