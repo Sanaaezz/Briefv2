@@ -79,14 +79,16 @@
   .localisation,
   .phone,
   .email {
-    width: 20px;
-    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
   }
 
   .logoFooter {
     height: auto;
-    width: 25vh;
-    padding-block-start: 5vh;
+    width: 50vh;
+    padding-block: 4%;
   }
   .localisation a,
   .phone a,
@@ -96,17 +98,24 @@
     text-align: left;
     margin-left: 40px;
   }
-
+  .pContact {
+    margin-top: -5%;
+  }
   .reseauxS {
     display: flex;
   }
 
   li {
     padding-top: 5px;
+    display: flex;
+    align-items: start;
   }
   .liens {
     height: 90px;
   }
   .logoRS {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
