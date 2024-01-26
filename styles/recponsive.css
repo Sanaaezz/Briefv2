@@ -1,11 +1,11 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .header {
     background-image: url(../medias/images/bg_hero_mobile.svg);
     font-size: 14px;
   }
   .logoHeader {
-    height: 50%;
-    width: 50%;
+    height: auto;
+    width: auto;
     padding-top: 20px;
   }
   .tryIt {
@@ -62,6 +62,9 @@
     object-fit: contain;
     margin: 0;
   }
+  .lastDiv {
+    margin: 0px 10% -10%;
+  }
   .getStartedF {
     padding: 2%;
     font-size: 14px;
@@ -86,7 +89,7 @@
 
   .logoFooter {
     height: auto;
-    width: 50vh;
+    width: 40vh;
     padding-block: 4%;
   }
   .localisation a,
@@ -115,8 +118,10 @@
   .logoRS {
     display: flex;
     flex-direction: row !important;
-    align-items: center;
     padding: 5%;
+    justify-content: space-between !important;
+    align-self: center !important;
+    margin-top: 7%;
   }
 
   .divCR {
