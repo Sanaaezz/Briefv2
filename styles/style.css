@@ -8,7 +8,9 @@ a {
   text-align: center;
   color: white;
 }
-
+a:hover {
+  cursor: pointer;
+}
 .header {
   background-image: url(../medias/images/bg_hero_desktop.svg);
   background-color: hsl(193, 100%, 96%);
@@ -174,17 +176,31 @@ li:hover {
   display: flex;
   flex-direction: column;
 }
-.reseauxS {
+.logofb,
+.logotwitter,
+.logoinsta {
   width: 40px;
-  height: auto;
+  height: 30px;
+  padding: 15%;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.logotwitter:hover {
+  content: url(../medias/icons/twitterRose.svg);
+  border-color: hsl(322, 100%, 66%);
+}
+.logoinsta:hover {
+  content: url(../medias/icons/instagramRose.svg);
+  border-color: hsl(322, 100%, 66%);
+}
+.logofb:hover {
+  content: url(../medias/icons/facebookRose.svg);
+  border-color: hsl(322, 100%, 66%);
 }
 .logoRS {
   display: flex;
   justify-content: space-evenly;
   width: 260px;
-}
-.reseauxS:hover {
-  color: rgb(255, 240, 250);
 }
 
 .divCR {
