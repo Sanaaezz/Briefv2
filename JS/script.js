@@ -1,2 +1,4 @@
 window.alert(" Attention ce site est encore imparfait!");
-js;
+
+let tryIt = document.querySelector(".tryIt");
+tryIt = window.alert(" et bin non ! ");
