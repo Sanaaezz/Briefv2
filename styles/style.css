@@ -42,7 +42,7 @@ a:hover {
 .contentTitle {
   font-family: "Poppins", sans-serif;
 
-  padding: 10%;
+  padding: 8%;
 }
 .Ftitle {
   width: 100%;
@@ -55,6 +55,7 @@ a:hover {
   text-align: center;
   padding: 15px 30px;
   display: block;
+  width: 250px;
 }
 .getStartedH:hover,
 .getStartedF:hover {
@@ -65,7 +66,7 @@ a:hover {
   margin-top: 70px;
   margin-right: 50px;
   width: auto;
-  height: 400px;
+  height: 500px;
 }
 
 .mainContent {
