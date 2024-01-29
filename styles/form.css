@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-content: center;
+  background-color: hsl(193, 100%, 96%);
+  border-radius: 25%;
+  justify-content: center;
+}
+.formulaire {
+  width: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(79, 138, 183);
+  font-size: 30px;
+}
+input {
+  border-radius: 5%;
+  margin: 5vh;
+}
+
+label {
+  font-size: 20px;
+}

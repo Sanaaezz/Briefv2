@@ -97,12 +97,12 @@ h2 {
 .imgYourU {
   width: auto;
   height: 270px;
-  margin-left: 150px;
+  margin-left: 7%;
 }
 .imgFlowingC {
   width: auto;
   height: 270px;
-  margin-right: 150px;
+  margin-right: 7%;
 }
 .firstArticle {
   flex-direction: row-reverse;
