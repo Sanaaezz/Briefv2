@@ -65,8 +65,8 @@ a:hover {
 .mockups {
   margin-top: 70px;
   margin-right: 50px;
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .mainContent {
@@ -217,4 +217,14 @@ li:hover {
 .copyR {
   font-size: 14px;
   color: white;
+}
+
+.visageTriste {
+  display: none;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  border-radius: 25%;
+  margin: 25%;
+  margin-top: 10%;
 }

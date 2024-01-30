@@ -132,4 +132,7 @@
     color: white;
     font-size: small;
   }
+  .visageTriste {
+    display: none !important;
+  }
 }
